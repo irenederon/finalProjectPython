@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+{% load static %}
+
+{% block content %}
+
+<p>{{ proveedor.nombre_proveedor }} {{ proveedor.telefono_proveedor }}
+    {{ proveedor.direccion_proveedor }} {{ proveedor.cif_proveedor }}
+{{ proveedor.facturacion_proveedor }}</p>
+
+{% endblock %}
